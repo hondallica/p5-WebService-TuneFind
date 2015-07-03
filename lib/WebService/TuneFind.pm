@@ -2,9 +2,26 @@ package WebService::TuneFind;
 use 5.008001;
 use strict;
 use warnings;
+use Moo;
+use namespace::clean;
+
 
 our $VERSION = "0.01";
 
+
+has api_username => (
+    is => 'rw',
+    default => sub {
+        $ENV{TUNEFIND_API_USERNAME};
+    },
+);
+
+has api_password => (
+    is => 'rw',
+    default => sub {
+        $ENV{TUNEFIND_API_PASSWORD};
+    },
+);
 
 
 1;

@@ -52,6 +52,17 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/hondallica/p5-WebService-TuneFind/issues"
+      },
+      "homepage" : "https://github.com/hondallica/p5-WebService-TuneFind",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/hondallica/p5-WebService-TuneFind.git",
+         "web" : "https://github.com/hondallica/p5-WebService-TuneFind"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:HONDALLIC",
    "x_serialization_backend" : "JSON::PP version 2.27300"
